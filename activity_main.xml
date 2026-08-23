@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCreateSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Space" />
+
+    <Button
+        android:id="@+id/btnDestroySpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Destroy Space" />
+
+    <Button
+        android:id="@+id/btnFreezeApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Freeze Demo App" />
+
+    <Button
+        android:id="@+id/btnUnfreezeApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Unfreeze Demo App" />
+
+    <Button
+        android:id="@+id/btnHideApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hide Demo App" />
+
+    <Button
+        android:id="@+id/btnUnhideApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Unhide Demo App" />
+
+</LinearLayout>
